@@ -26,8 +26,7 @@ public class Hotel {
         this.reviews = new ArrayList<>();
     }
 
-    public Hotel(String id, String name, int pricePerNight, Address address, List<Review> reviews) {
-        this.id = id;
+    public Hotel(String name, int pricePerNight, Address address, List<Review> reviews) {
         this.name = name;
         this.pricePerNight = pricePerNight;
         this.address = address;
